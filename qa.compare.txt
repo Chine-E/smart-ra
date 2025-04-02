@@ -1,0 +1,23 @@
+RA : Validation Results
+=========================================
+
+err = 2, warn = 9, info = 0
+$--
+Generated $--. FHIR version $-- for smart.who.int.ra#$-- (canonical = http://smart.who.int/ra)
+ Build Errors : 1 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra : 2 / 5 / 2
+</table>
+== n/a ==
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/img at Line 377, column 3: The image source 'illustrative-dpi-h.png' cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json ==
+ERROR: ImplementationGuide/smart.who.int.ra: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[7]: The ImplementationGuide is based on FHIR version 4.0.1 but package hl7.fhir.uv.extensions.r5#5.2.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[9]: The ImplementationGuide uses package ihe.iti.svcm#current released on 2024-05-06, but the most recent appropriate version is 1.5.1. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ra: ImplementationGuide.dependsOn[11]: The ImplementationGuide is based on FHIR version 4.0.1 but package smart.who.int.trust#current is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+ERROR: ImplementationGuide/smart.who.int.ra: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0)

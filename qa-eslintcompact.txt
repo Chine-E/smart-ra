@@ -1,0 +1,18 @@
+RA
+=========================================
+
+Generic: line 0, col 0, Error - The image source 'illustrative-dpi-h.png' cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 20352, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 1941, Warning - The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 2116, Warning - The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 3047, Warning - The ImplementationGuide is based on FHIR version 4.0.1 but package hl7.fhir.uv.extensions.r5#5.2.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 3335, Warning - The ImplementationGuide uses package ihe.iti.svcm#current released on 2024-05-06, but the most recent appropriate version is 1.5.1. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 4001, Warning - The ImplementationGuide is based on FHIR version 4.0.1 but package smart.who.int.trust#current is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ra.json: line 1, col 20352, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0) (STRUCTURE)
+
+err = 2, warn = 9, info = 0
+IG Publisher Version: 1.8.22
